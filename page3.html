@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Ride</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://db.onlinewebfonts.com/c/b1fc40c9d0f6c4d949b6f3db3c7f4345?family=Seashore" rel="stylesheet"> 
+  <link href="https://fonts.cdnfonts.com/css/reborn" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/built-titling" rel="stylesheet">
+</head>
+<body>
+<div id="pages">
+    <div id="container-3" class="container">
+        <h1>Synopsis</h1>
+        <p>A strange stranger asking for a lift and a woman with nicotine addiction.</p>
+        <p>Watch as they both discover that they’re more than a driver and a passenger.</p>
+        <p>This is a once in a lifetime road trip full of joy, confessions, and unplanned destinations in between—oh, and old music!</p>
+        <a href="https://open.spotify.com/playlist/5NlIDXb7ShN3KCIDCRNTuK?si=e4V8EzHmQzm1Z8fkhvXGSA&pi=a-yj1qsSNJQVil" target="_blank" id="spotify-link" class="spotify-button">🎵 Spotify Playlist</a>
+        <button id="to-title">Back</button>
+        <button id="to-preface">Next Page</button>
+    </div>
+</div>
+
+    <script>
+        // Back button
+        document.getElementById("to-title").addEventListener("click", function () {
+            window.location.href = "page2.html"; // Go back to page2.html
+        });
+
+        // Next page button
+        document.getElementById("to-preface").addEventListener("click", function () {
+            window.location.href = "page4.html"; // Go to page4.html (if you have this page)
+        });
+    </script>
+</body>
+</html>

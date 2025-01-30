@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Ride</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://db.onlinewebfonts.com/c/b1fc40c9d0f6c4d949b6f3db3c7f4345?family=Seashore" rel="stylesheet"> 
+  <link href="https://fonts.cdnfonts.com/css/reborn" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/built-titling" rel="stylesheet">
+</head>
+<body>
+<div id="pages">
+    <div id="container-2" class="container-1">
+            <h1>How to Play</h1>
+            <p>1. Baca terlebih dahulu <b>disclaimer</b> dan <b>warning.</b></p>
+            <p>2. Baca cerita lalu tentukan pilihanmu dengan hati-hati. Jika sudah memilih, maka kamu tidak akan bisa kembali lagi.</p>
+            <p>3. Setiap pilihan akan menentukan ending yang berbeda.</p>
+            <p>4. Jika ingin melihat ending yang lain, kamu bisa memulai lagi dari awal.</p>
+            <p>5. Jangan lupa berikan tanggapan atau apresiasi melalui Tellonym milik Kichuune dan Shiuyalan!</p>
+            <p><b>6. Enjoy your road trip!</b></p>
+            <button id="to-warn">Back</button>
+            <button id="start-game">Start</button>
+        </div>
+
+    <script>
+        document.getElementById("to-warn").addEventListener("click", function () {
+            window.location.href = "page6.html"; // Navigate to page2.html
+        });
+
+        document.getElementById("start-game").addEventListener("click", function () {
+            window.location.href = "app.html"; // Go back to the main-menu.html
+        });
+    </script>
+</body>
+</html>
